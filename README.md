@@ -1,6 +1,6 @@
 # **BohrAJJP**
 
-#Descripción 
+# Descripción 
 BohrAJJP es un paquete de Python diseñado para implementar el modelo de Bohr para el átomo de hidrógeno y hidrogenoides. Ofrece funciones analíticas para calcular niveles de energía, radios de órbita y transiciones, junto con utilidades para visualización didáctica (diagramas de niveles y órbitas). Esta librería nace como proyecto de taller colaborativo pensado para ser publicado en PyPI y desarrollado siguiendo buenas prácticas de software científico.
 
 # Estado actual 
