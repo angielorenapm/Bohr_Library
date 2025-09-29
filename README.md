@@ -35,4 +35,4 @@ pip install BohrAJJP
 
 Pending...
 ---
-Authors: Angie Lorena Pineda, Juan Sebastián Acuña, Jose Luis Zamora
+Authors: Angie Lorena Pineda, Juan Sebastián Acuña, Jose Luis Zamora, Juan Pablo Patiño.
