@@ -15,7 +15,7 @@ import subprocess
 import os
 
 # Carpeta donde están los scripts
-SCRIPTS_DIR = "scripts"  # Cambia esto si tus archivos están en otra ruta
+SCRIPTS_DIR = "src"  # Cambia esto si tus archivos están en otra ruta
 
 def run_script(script_name):
     """Ejecuta un script .py ubicado en la carpeta SCRIPTS_DIR"""
