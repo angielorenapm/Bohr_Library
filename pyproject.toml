@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bohr-library"
+
+# Initial version. Increase with each update: 0.1.0 → 0.1.1 → 0.2.0
+version = "0.1.0"
+
+# Short description of the package
+description = "Python package to calculate energy levels, orbital radii, and electronic transitions for the Bohr model of hydrogen and hydrogen-like atoms, including educational visualizations."
+
+# README file used as main documentation
+readme = "README.md"
+
+# Project license (LICENSE file must exist in the root directory)
+license = { file = "LICENSE" }
+
+# Main author
+authors = [
+  { name = "Angie Lorena Pineda Morales", email = "anlopimo580@gmail.com }
+]
+
+# Keywords to help others find the package on PyPI
+keywords = ["bohr", "physics", "atomic-model", "hydrogen", "education"]
+
+# Classifiers for PyPI (important for categorizing the package)
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Education",
+  "Topic :: Scientific/Engineering :: Physics",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent"
+]
+
+dependencies = [
+  "numpy>=1.23",
+  "matplotlib>=3.7"
+]
+
+# Minimum Python version required
+requires-python = ">=3.8"
+
+[project.urls]
+"Homepage" = "https://github.com/angielorenapm/Bohr_Library"
+"Bug Tracker" = "https://github.com/angielorenapm/Bohr_Library/issues"
+"Documentation" = "https://github.com/angielorenapm/Bohr_Library/wiki"
+
+[tool.setuptools.packages.find]
+where = ["."]
+
