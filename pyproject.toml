@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "bohr-library"
 
 # Initial version. Increase with each update: 0.1.0 → 0.1.1 → 0.2.0
-version = "0.1.0"
+version = "0.1.1"
 
 # Short description of the package
 description = "Python package to calculate energy levels, orbital radii, and electronic transitions for the Bohr model of hydrogen and hydrogen-like atoms, including educational visualizations."
